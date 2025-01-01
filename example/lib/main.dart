@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-import 'package:example/bento_box_library/bento_box.dart';
-import 'package:example/bento_box_library/bento_box_with_image.dart';
+import 'package:bento_box_library/bento_box_library.dart';
 import 'package:flutter/material.dart';
 
 void main() {
