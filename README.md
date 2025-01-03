@@ -13,7 +13,10 @@ A Flutter package providing customizable Bento-style widgets for creating modula
 
 ## Screenshot
 
-![BentoBox Library Screenshot](assets/screenshot.png)
+<div align="center">
+  <img src="assets/screenshot.png" alt="BentoBox Library Screenshot">
+</div>
+
 
 ## Getting Started
 
