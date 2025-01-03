@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.4
+
+- Updated screenshot URL.
+
 ## 1.1.3
 
 - Updated `README.md` to include a screenshot of the library in action.

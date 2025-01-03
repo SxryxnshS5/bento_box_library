@@ -14,7 +14,7 @@ A Flutter package providing customizable Bento-style widgets for creating modula
 ## Screenshot
 
 <div align="center">
-  <img src="assets/screenshot.png" alt="BentoBox Library Screenshot">
+  <img src="https://github.com/SxryxnshS5/bento_box_library/blob/d64c92be58b5ce65f6b9a2c2a5eb0b60798ff924/assets/screenshot.png?raw=true" alt="BentoBox Library Screenshot">
 </div>
 
 
@@ -27,7 +27,7 @@ A Flutter package providing customizable Bento-style widgets for creating modula
 Add this package to your project by including it in your `pubspec.yaml` file:
 ```yaml
 dependencies:
-  bento_box_library: ^1.1.3
+  bento_box_library: ^1.1.4
 ```
 
 Then, run:
