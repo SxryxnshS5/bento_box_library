@@ -11,6 +11,10 @@ A Flutter package providing customizable Bento-style widgets for creating modula
 - Fully customizable dimensions, colors, and text styles.
 - Responsive design for dynamic layout across different screen sizes.
 
+## Screenshot
+
+![BentoBox Library Screenshot](assets/screenshot.png)
+
 ## Getting Started
 
 ### Prerequisites
@@ -20,7 +24,7 @@ A Flutter package providing customizable Bento-style widgets for creating modula
 Add this package to your project by including it in your `pubspec.yaml` file:
 ```yaml
 dependencies:
-  bento_box_library: ^1.1.2
+  bento_box_library: ^1.1.3
 ```
 
 Then, run:

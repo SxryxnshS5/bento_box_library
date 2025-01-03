@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.3
+
+- Updated `README.md` to include a screenshot of the library in action.
+- Changed the version number in the `README.md` to reflect the latest release.
+- Improved the documentation for better clarity and presentation.
+
 ## 1.1.2
 
 - Fixed typos and improved clarity in the README.
