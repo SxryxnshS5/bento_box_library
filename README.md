@@ -1,4 +1,4 @@
-x# BentoBox Library
+# BentoBox Library
 
 A Flutter package providing customizable Bento-style widgets for creating modular, responsive, and visually appealing UI components.
 
