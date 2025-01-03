@@ -1,11 +1,13 @@
-# BentoBox Library
+x# BentoBox Library
 
 A Flutter package providing customizable Bento-style widgets for creating modular, responsive, and visually appealing UI components.
 
 ## Features
 
 - **BentoBox**: A reusable widget for displaying a title and subtitle in a rounded container.
+  - **Customizable Colors**: Users can set custom colors for the box, title, and subtitle. Defaults are applied if no colors are specified.
 - **BentoBoxWithImage**: A widget for displaying an image in a rounded container, perfect for profile pictures or media grids.
+  - **Dynamic Image Source**: Supports both local asset paths (e.g., `'assets/image.png'`) and network URLs.
 - Fully customizable dimensions, colors, and text styles.
 - Responsive design for dynamic layout across different screen sizes.
 
@@ -18,7 +20,7 @@ A Flutter package providing customizable Bento-style widgets for creating modula
 Add this package to your project by including it in your `pubspec.yaml` file:
 ```yaml
 dependencies:
-  bento_box_library: ^1.0.0
+  bento_box_library: ^1.1.0
 ```
 
 Then, run:
@@ -41,15 +43,27 @@ BentoBox(
   width: 200,
   title: "Title",
   subtitle: "This is a subtitle",
+  boxColor: Colors.blue, // Custom box color
+  titleColor: Colors.white, // Custom title color
+  subtitleColor: Colors.grey, // Custom subtitle color
 )
 ```
 
-#### BentoBoxWithImage
+#### BentoBoxWithImage (Network Image)
 ```dart
 BentoBoxWithImage(
   height: 150,
   width: 150,
-  profilePictureUrl: 'https://via.placeholder.com/150',
+  imagePath: 'https://via.placeholder.com/150', // Network URL
+)
+```
+
+#### BentoBoxWithImage (Local Asset)
+```dart
+BentoBoxWithImage(
+  height: 150,
+  width: 150,
+  imagePath: 'assets/image.png', // Local asset path
 )
 ```
 
@@ -79,12 +93,21 @@ class MyApp extends StatelessWidget {
                 width: 200,
                 title: "Hello",
                 subtitle: "This is a BentoBox",
+                boxColor: Colors.blueAccent,
+                titleColor: Colors.white,
+                subtitleColor: Colors.white70,
               ),
               const SizedBox(height: 16),
               BentoBoxWithImage(
                 height: 150,
                 width: 150,
-                profilePictureUrl: 'https://via.placeholder.com/150',
+                imagePath: 'https://via.placeholder.com/150',
+              ),
+              const SizedBox(height: 16),
+              BentoBoxWithImage(
+                height: 150,
+                width: 150,
+                imagePath: 'assets/image.png',
               ),
             ],
           ),

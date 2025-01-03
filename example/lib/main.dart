@@ -1,7 +1,9 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-import 'package:bento_box_library/bento_box_library.dart';
 import 'package:flutter/material.dart';
+
+import 'bento_box_library/bento_box.dart';
+import 'bento_box_library/bento_box_with_image.dart';
 
 void main() {
   runApp(const MyApp());
@@ -42,22 +44,22 @@ class MyHomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              // BentoBox with text content
               BentoBox(
                 height: 100,
                 width: 200,
                 title: "Hello",
                 subtitle: "This is a BentoBox",
+                boxColor: Colors.black,
+                titleColor: Colors.white,
+                subtitleColor: Colors.white70,
               ),
               const SizedBox(height: 16),
-              // BentoBoxWithImage displaying a network image
               BentoBoxWithImage(
                 height: 150,
                 width: 150,
-                profilePictureUrl: 'https://via.placeholder.com/150',
+                imagePath: 'assets/image.png',
               ),
               const SizedBox(height: 16),
-              // Another BentoBox to test layout
               BentoBox(
                 height: 80,
                 width: 180,
