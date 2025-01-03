@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.2
+
+- Fixed typos and improved clarity in the README.
+
 ## 1.1.1
 
 - Fixed typos and improved clarity in the README.
